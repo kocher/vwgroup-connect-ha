@@ -167,6 +167,7 @@ action:
           data:
             tag: "{{ activity_tag }}"
             live_update: true
+            silent: true
             notification_icon: "mdi:ev-station"
             notification_icon_color: "#2196F3"
             progress: "{{ soc }}"
